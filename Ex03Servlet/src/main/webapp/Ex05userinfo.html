@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="Ex05userinfo" method="post">
+<table width="400px">
+        
+            <tr bgcolor="gray" height="50px">
+                <th colspan="2">
+                    Step1 : 아이디/비번 입력
+                </th>
+                </tr>
+            <tr bgcolor="whitesmoke" height="35px">
+                <td>아이디</td>
+                <td>
+                    <input type="text" name = "id">
+                </td>
+            </tr>
+            <tr bgcolor="whitesmoke" height="35px">
+                <td>비밀번호</td>
+                <td>
+                    <input type="password" name = "password">
+                </td>
+            </tr>
+            <tr bgcolor="whitesmoke" height="35px">
+                <td>비밀번호확인</td>
+                <td>
+                    <input type="password" name = "password_check">
+                </td>
+            </tr>
+       
+
+
+
+        <!-- Step 1 끝 -->
+
+            <!-- 정렬하고 싶은 영역 선택 + ctrl + K + F -->
+
+        <!-- Step 2 시작 -->
+        <tr bgcolor="gray" height="50px">
+            <th colspan="2">
+                Step2 : 개인정보
+            </th>
+            </tr>
+        <tr bgcolor="whitesmoke" height="35px">
+            <td>성별</td>
+            <td>
+                남 <input type="radio" name="gender" value="man">
+                여 <input type="radio" name="gender" value="woman">
+            </td>
+        </tr>
+        <tr bgcolor="whitesmoke" height="35px" >
+            <td>혈액형</td>
+            <td>
+                <select name = "blood_type">
+                    <option  >A형</option>
+                    <option >B형</option>
+                    <option >O형</option>
+                    <option >AB형</option>
+                </select>
+            </td>
+        </tr>
+        <tr bgcolor="whitesmoke" height="35px">
+            <td>생일</td>
+            <td>
+                <input type="datetime-local"name="datetime_local">
+            </td>
+        </tr>
+   
+
+
+
+    <!-- Step 2 끝 -->
+
+    <!-- Step 3 시작 -->
+        <tr bgcolor="gray" height="50px">
+            <th colspan="2">
+                Step3 : 선호도
+            </th>
+            </tr>
+        <tr bgcolor="whitesmoke" height="35px">
+            <td>취미</td>
+            <td>
+                축구 <input type="checkbox" name="hobby" value="sc">
+                야구 <input type="checkbox" name="hobby" value="bs">
+                농구 <input type="checkbox" name="hobby" value="bk">
+            </td>
+        </tr>
+        <tr bgcolor="whitesmoke" height="35px">
+            <td>색깔</td>
+            <td>
+                <input type="color" name ="color">
+            </td>
+   
+    <!-- Step 3 끝 -->
+
+    <!-- Step 4 시작 -->
+        <tr bgcolor="gray" height="50px">
+            <th colspan="2">
+                Step4 : 하고싶은 말
+            </th>
+            </tr>
+            
+        <tr bgcolor="whitesmoke" height="35px">
+        
+        <td colspan="2">
+            <textarea cols="56" rows="5" name="textarea"></textarea>
+
+        </td>
+        
+        </tr>
+   
+    <!-- Step 4 끝 -->
+
+
+    <!-- 제출 및 초기화 -->
+
+    <tr>
+        <td colspan="2" align="center">
+            <input type="submit" value="제출">
+            <input type="reset" value= "초기화">
+        </td>
+
+    </tr>
+        </table>
+        </form>
+</body>
+</html>
