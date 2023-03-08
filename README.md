@@ -14,5 +14,5 @@ function copyToClipboard() {
 </script>
 
 <code>
-  <!-- 여기에 복사할 HTML 코드를 작성합니다. -->
+  iasdasd
 </code>
